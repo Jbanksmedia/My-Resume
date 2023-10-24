@@ -30,7 +30,7 @@ body
 {
     position: relative;
     background: #003147;
-    padding: 40px;
+    padding: 20px;
 }
 .container .right_side
 {
@@ -42,7 +42,7 @@ body
 {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(225,225,225,0.2);
@@ -59,9 +59,9 @@ body
 {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 10;
     width: 100%;
-    height: 150%;
+    height: 100%;
     object-fit: cover;
 }
 .profileText h2
@@ -76,9 +76,9 @@ body
 }
 .profileText h2 span
 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 0.6em;
-    font-weight: 200;
+    font-weight: 500;
 }
 .contactInfo
 {
@@ -90,11 +90,36 @@ body
 }
 .contactInfo ul li
 {
+    text-align: center;
     list-style: none;
     position: relative;
     cursor: pointer;
-    margin: 10px 0;
+    margin: 20px 0;
     line-height: 1.5em;
+}
+.contactInfo a:link 
+{
+        color: rgb(0, 0, 0);
+        background-color: transparent;
+        text-decoration: none;
+}
+.contactInfo a:visited 
+{
+        color: white;
+        background-color: transparent;
+        text-decoration: none; 
+}
+.contactInfo a:hover 
+{
+        color: rgb(243, 243, 243);
+        background-color: transparent;
+        text-decoration: none;
+}
+.contactInfo a:active 
+{
+        color: rgb(0, 0, 0);
+        background-color: transparent;
+        text-decoration: none;
 }
 .title
 {
@@ -108,10 +133,11 @@ body
 .contactInfo ul li .text 
 {
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     letter-spacing: 2px;
     font-weight: 300;
 }
+
 .contactInfo ul li .icon
 {
     display: inline-block;
@@ -135,7 +161,7 @@ body
     position: relative;
     width: 100%;
     height: 6px;
-    background: rgb(2, 0, 0);
+    background: rgb(7, 7, 7);
     display: block;
     margin-top: 5px;
 }
@@ -149,7 +175,7 @@ body
     top: 0;
     left: 0;
     height: 100%;
-    background: #fff;
+    background: #03a9f4;
 }
 .about
 {
@@ -248,4 +274,61 @@ p
 .HNG li
 {
     list-style: none;
+}
+.title4
+{
+    text-align: center;
+    color: rgb(84, 17, 94);
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.profileText1
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(225,225,225,0.2);
+}
+.profileText1 .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    border-radius: 3%;
+    overflow: hidden;
+}
+.profileText1 .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 10;
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+.portfolio a:link 
+{
+        color: rgb(0, 0, 0);
+        background-color: transparent;
+        text-decoration: none;
+}
+.portfolio a:visited 
+{
+        color: pink;
+        background-color: transparent;
+        text-decoration: none; 
+}
+.portfolio a:hover 
+{
+        color: rgb(0, 0, 0);
+        background-color: transparent;
+        text-decoration: none;
+}
+.portfolio a:active 
+{
+        color: rgb(0, 0, 0);
+        background-color: transparent;
+        text-decoration: none;
 }
