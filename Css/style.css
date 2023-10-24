@@ -23,7 +23,7 @@ body
     background: #fff;
     margin: 50px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr -3fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.5);
 }
 .container .left_side
@@ -36,26 +36,27 @@ body
 {
     position: relative;
     background: #fff ;
-    padding: 40px;
+    padding: 20px;
 }
 .profileText
 {
-    position: relative;
+    position: center;
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
     align-items: center;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(225,225,225,0.2);
 }
-.profileText .imgBx
+.left_side .imgBx
 {
-    position: relative;
+    align-items: left;
+    position:relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    overflow: hidden;
+    overflow:hidden;
 }
-.profileText .imgBx img
+.left_side .imgBx img
 {
     position: absolute;
     top: 0;
